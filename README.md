@@ -14,7 +14,16 @@ Bisa diakses :
 
 ## Domain
 
-list domain untuk internet positif hanya sekadar test, jika ada masukan baru untuk di test silakan pull request aja yak!
+list domain untuk internet positif hanya sekadar test dimasukkan beberapa saja. Karena kan gak mungkin ada `1.461.020` yang di blacklist dimasukkan semua.
+
+Kriteria yang aku masukkan:
+
+- situs internasional yang terkenal: reddit vimeo
+- bukan situs porn secara vulgar
+- beberapa situs perwakilan blogspot
+- bukan situs yang webnya sudah down
+
+jika ada masukan baru untuk di test silakan pull request aja yak, terutama situs internasional yang sudah terkenal!
 
 ## Kolaborasi
 
