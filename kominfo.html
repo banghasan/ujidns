@@ -270,59 +270,11 @@
             </header>
             <hr>
             <div>
-                <h2>Cara Kerja</h2>
-                <b class="_txt-red"><i>Kamu tidak akan melihat iklan apa pun dan tidak ada pelacak yang akan diaktifkan
-                    </i></b><br><br>
+                <h2>Trust Positif</h2>                
 
-                Saat kamu memuat situs web ini, ia akan mencoba membuat koneksi dalam Javascript murni dengan url yang
-                berbeda (layanan periklanan, analitik, dan iklan sosial) dari daftar.
-                Untuk setiap host , jika koneksi gagal, berarti yang terakhir telah diblokir oleh pemblokir iklan (mis.
-                uBlock Origin , Blokada , AdGuard , adblocker bawaan) atau penyedia DNS.
-
-                <h3>Bagaimana saya tahu jika adblock saya berfungsi?</h3>
-                <p>
-                    Kamu akan menerima persentase dari berapa banyak koneksi yang berhasil kamu blokir.
-                    Pada dasarnya jika kamu mendapatkan nilai <b class="_bg-green _radius _px"> > 40% </b> kamu
-                    baik-baik saja selama kamu memblokir iklan dan kategori analitik
-                    Jika kamu mendapatkan <b class="_bg-red _radius _px">
-                        < 40%</b> , mungkin kamu tidak menggunakan adblock yang efektif atau tidak memaksimalkan
-                            potensinya.
-                </p>
+                Domain pilihan hanya acak saja. Jika ada masukkan silakan submit <a href="https://github.com/banghasan/ujidns/issues/new/choose">issue</a>.
 
 
-                <h2>Bagaimana saya bisa memiliki nilai 100%?</h2>
-                <p>
-                    Kamu dapat mencapai 100% menggunakan daftar kecil yang dibuat untuk mencakup semua tes dengan
-                    menambahkan hosts ini
-                    <button onclick="copyToClip('https://ujidns.banghasan.com/hosts.txt')">Copy
-                        d3Host list to clipboard</button>
-                    <br><br>
-                    <b class="_txt-green"><i>Daftar host tersebut adalah proyek beta. Saya tidak bertanggung jawab jika
-                            membuat aplikasi atau web tertentu kamu berhenti bekerja,
-                            misalnya pada aplikasi sosial atau blog favoritmu.
-                        </i></b>
-                </p>
-
-                <h3>Solusi yang disarankan untuk pemblokiran iklan</h3>
-                <div>
-                    <a href="https://adguard.com/" class="btn">Adguard</a>
-                    <a href="https://blokada.org/" class="btn">Blokada </a>
-                    <a href="https://ublockorigin.com/" class="btn">uBlock Origin </a>
-                    <a href="https://nextdns.io/" class="btn">Next DNS</a>
-                </div>
-                <p>
-
-                <h3>Alat lain untuk menguji adblock </h3>
-                <div class="cnt2">
-                    <a href="https://ipleak.net/" class="btn">IP Leak </a>
-                    <a href="https://blockads.fivefilters.org/" class="btn">Block Ads Test </a>
-                    <a href="https://panopticlick.eff.org/" class="btn">Browser Fingerprint by EEF</a>
-                    <a href="http://raymondhill.net/ublock/tiles1.html" class="btn">Adblock Testing by
-                        raymondhill</a>
-                    <a href="http://raymondhill.net/ublock/popup.html" class="btn">Popup Blocker by
-                        raymondhill</a>
-                </div>
-                </p>
             </div>
             <hr>
             <footer>
@@ -342,7 +294,7 @@
             </a>
             <ul>
                 <li>
-                    <a href="kominfo.html">
+                    <a href="index.html">
                         <svg viewBox="0 0 12.002 12.7" class="_icon" xmlns="http://www.w3.org/2000/svg">
                             <defs>
                                 <linearGradient id="prefix__a">
@@ -357,7 +309,7 @@
                                     d="M3.579 4.385C1.42 4.27.047 2.012 0 0h3.982c3.437 0 4.025.013 4.24.044 2.282-.027 3.674 2.286 3.74 4.49M7.38 8.204c2.537.053 4.463 2.109 4.622 4.496l-7.9-.016c-1.18-.019-4.052-1.81-4.068-4.47" />
                             </g>
                         </svg> &nbsp;
-                        Test: Trust Positif
+                        Ads Block Test
                     </a>
                 </li>
                 <li>
@@ -417,17 +369,18 @@
                             clip-rule="evenodd"></path>
                     </svg></button> </span>
             <div>
-                Tool ini bukan mengujikan untuk memperebutkan poin terbanyak, namun ini adalah alat untuk digunakan
-                sebagai referensi
-                untuk melihat seberapa efisien sistem pemblokiran (pertimbangkan bahwa dengan beberapa DNS dan browser
-                mungkin ada masalah).
+                Tool ini hanya untuk menguji apakah DNS kamu berhasil menembus website yang diblokir oleh <a href="https://trustpositif.kominfo.go.id/">Kominfo</a> yang katanya positif.. 
+                <br />Sudut pandang orang berbeda soal ini, ada yang suka ada juga yang tidak suka. Semua terserah penggunanya.
             </div>
         </div>
         <div class="card">
             <div id="bar"></div>
-            <div class="cl_info _bg-green">Blocked Hosts</div>
-            <div class="cl_info _bg-red">Not Blocked</div>
+            <div class="cl_info _bg-red">Blocked Hosts</div>
+            <div class="cl_info _bg-green">Dapat Di Akses</div>
             <!-- Trigger/Open The Modal -->
+            <p>
+                Website ini <b>hanya</b> contoh, terutama test blogspot.
+            </p>
             <p>
                 🔖 Klik pada tes di bawah ini untuk melihat detail tentang url<br>
                 🔖 Klik pada url untuk menyalin ke clipboard <br>
@@ -443,9 +396,6 @@
                     <div>Icons by <b><a href="https://heroicons.dev/">Heroicons</a> (<a
                                 href="https://github.com/tailwindlabs/heroicons/blob/master/LICENSE"
                                 class="_txt-cl">MIT</a>)</b>
-                    </div>
-                    <div>
-                        Mirroring dari proyeknya <b><a href="https://d3ward.github.io">Eduard Ursu</a></b> © 2021
                     </div>
                     <!-- <div>
                         This website use <b><a href="https://www.useaurora.app/">Aurora - Open Web Analytics</a></b>
@@ -465,7 +415,7 @@
     </button>
 
 </body>
-<script src="./resources/adblock/data.js"></script>
+<script src="./resources/adblock/domain.js"></script>
 <script src="./src/js/colla.js"></script>
 <script src="./src/js/radialprogress.js"></script>
 <script src="./src/js/d3Notif.js"></script>
@@ -549,17 +499,17 @@
         div.appendChild(hostDiv);
         await fetch(url, config, timeout, parent, div).then(response => {
             console.log(url, response);
-            $(parent).css("background", "var(--red)");
-            $(hostDiv).css("background", "var(--red)");
+            $(hostDiv).css("background", "var(--green)");
+
+            points += 100 / nTest;
+            bar.setValue(points / 100);
+
         }) //Response was received --> ads are NOT blocked
             .catch(error => {
                 console.log(url, error.message);
-                $(hostDiv).css("background", "var(--green)");
-                if (!np) {
-                    points += 100 / nTest;
-                    bar.setValue(points / 100);
 
-                } //No response --> ads are blocked
+                $(parent).css("background", "var(--red)");
+                $(hostDiv).css("background", "var(--red)");
             });
     }
 
@@ -609,29 +559,6 @@
                 testingInfoLoading.appendChild(testInfo);
             }
         }
-        //Test fetch for the OEMs
-        var oemTest = document.createElement("div");
-        oemTest.id = "OEM";
-        oemTest.innerHTML = "<h3>" + icons["OEM"] +
-            "&nbsp;&nbsp; OEM </h3><h5> Optional test separated from final points</h5>";
-        testWrapper.appendChild(oemTest);
-        for (key in dataOEM) {
-            var div = document.createElement('div');
-            const dw = document.createElement('div');
-            div.classList.add("test");
-            div.id = key;
-            div.style.background = "var(--green)";
-            div.innerHTML = "<span onclick='show_info(this)'>" + icons[key] + "&nbsp;&nbsp;" + key + "</span>";
-            div.appendChild(dw);
-            oemTest.appendChild(div);
-            var value = dataOEM[key];
-            if (Array.isArray(value)) {
-                for (let i = 0; i < value.length; i++)
-                    fetches.push(check_url(value[i], dw, div, "np"));
-            } else fetches.push(check_url(value, dw, div, "np"));
-        }
-        let results = await Promise.all(fetches);
-        return results; //do whatever you want with your results like converting them to json.
     }
     window.onload = function () {
         new navbar();
