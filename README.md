@@ -12,6 +12,10 @@ Bisa diakses :
 - Uji DNS Ads
 - Uji DNS Internet Positif
 
+## Domain
+
+list domain untuk internet positif hanya sekadar test, jika ada masukan baru untuk di test silakan pull request aja yak!
+
 ## Kolaborasi
 
-Dipersilakan memberikan saran dan masukkan.
+Dipersilakan memberikan saran dan masukkan dengan membuat [issue baru](https://github.com/banghasan/ujidns/issues/new/choose)
