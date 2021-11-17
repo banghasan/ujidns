@@ -89,12 +89,12 @@ const data = {
         "Google Analytics": ["https://google-analytics.com","https://ssl.google-analytics.com"],
         "Hotjar": ["https://hotjar.com", "https://static.hotjar.com","https://api-hotjar.com","https://hotjar-analytics.com"],
         "MouseFlow": ["https://mouseflow.com/", "https://a.mouseflow.com"],
-        "FreshMarketer": "https://freshmarketer.com/",
+        "FreshMarketer": [ "https://freshmarketer.com/" ],
         "Luckyorange": ["https://luckyorange.com","https://cdn.luckyorange.com", "https://w1.luckyorange.com",
             "https://upload.luckyorange.net", "https://cs.luckyorange.net",
             "https://settings.luckyorange.net"
         ],
-        "Stats WP Plugin": "https://stats.wp.com"
+        "Stats WP Plugin": [ "https://stats.wp.com" ]
     },
     "Error Trackers": { //Error tracker
         "Bugsnag": ["https://notify.bugsnag.com", "https://sessions.bugsnag.com","https://api.bugsnag.com","https://app.bugsnag.com"],
